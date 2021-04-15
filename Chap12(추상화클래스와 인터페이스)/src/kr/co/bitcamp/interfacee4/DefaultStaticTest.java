@@ -1,0 +1,14 @@
+package kr.co.bitcamp.interfacee4;
+
+public class DefaultStaticTest {
+    public static void main(String[] args) {
+        
+        MyInterface myInterface = new DefaultStaticClass();
+        myInterface.dMethod();
+        myInterface.method();
+        
+        // 인터페이스의 정적메서드 호출하는 방법 동일함. 호출 방법-> 인터페이스명.정적메서드명
+        MyInterface.sMethod();
+    }
+
+}
